@@ -1,0 +1,42 @@
+<div class="split-screen">
+  <div class="left">
+    <section class="copy">
+      <h1>Easy To Mange Your expense</h1>
+      <p>it's very hard to entry all your expense</p>
+    </section>
+  </div>
+  <div class="right">
+      <form action="" [formGroup]="LoginForm">
+        <section class="copy">
+           <h2 class="wb">Welcome Back</h2>
+           <div class="login-container">
+               <p style="font-size: 1.3rem;">Please enter your details <a routerLink="/signup"><strong>Sign Up</strong></a></p>
+           </div>
+        </section>
+        <div class="input-container email">
+          <label for="email">Email</label>
+          <input type="email" formControlName="email">
+      </div>
+      <div class="input-container password">
+        <label for="password">Password</label>
+        <input type="password" formControlName="password" placeholder="Must be at least 6 characters">
+        <!-- <mat-icon>visibility_off</mat-icon> -->
+    </div>
+        <div class="input-container cta">
+          <label class="checkbox-container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+              Remember Me.
+          </label>
+        </div>
+      <button class="signup-btn" routerLink="/" (click)="signIn()">Log in</button>
+      <section class="user">
+        <button class="login_create_button" (click)="createAccout()">Create your Shopsy account</button>
+      </section>
+      <section class="copy legal">
+        <p><samp class="small" style="font-size: 1rem;">By continuing, you agree to accept our <br> <a href="#">Privacy Policy</a> &amp; <a href="#">Terms of Service</a>.</samp></p>
+      </section>
+      </form>
+  </div>
+</div>
+

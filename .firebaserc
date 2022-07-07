@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "shopsy-57a0c": {
+      "hosting": {
+        "webskitters": [
+          "shopsy-57a0c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "shopsy-57a0c"
+  }
+}

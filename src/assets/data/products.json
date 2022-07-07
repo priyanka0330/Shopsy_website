@@ -1,0 +1,61 @@
+[
+  {
+      "id": 1,
+      "title": "xbox one x 1TB",
+      "desc": "Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd",
+      "price": 450.00,
+      "image": "/assets/img/laptop.png",
+      "ratings": 4},
+   {
+      "id": 2,
+      "title": "PlayStation 4 Slim 1TB",
+       "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
+       "price": 488.00,
+       "image": "/assets/img/headphones1.jpg",
+       "ratings": 5
+   },
+   {
+      "id": 3,
+      "title": "Pro Angular 9: Build Powerful and Dynamic Web Apps",
+      "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
+       "price": 28.88,
+       "image": "/assets/img/hdj.png",
+       "ratings": 3
+   },
+   {
+      "id": 4,
+       "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+       "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+       "price": 53.00,
+       "image": "/assets/img/Laptop1.png",
+       "ratings": 5
+   },
+   {    "id": 5,
+       "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+       "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+       "price": 54.36,
+       "image": "/assets/img/book-6.png",
+       "ratings": 2
+   },
+   {    "id": 6,
+    "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+    "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+    "price": 20000,
+    "image": "/assets/img/laptop.png",
+    "ratings": 2
+},
+  {    "id": 7,
+    "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+    "desc": "Lavazza Super Crema Whole Bean Laptop",
+    "price": 35000,
+    "image": "/assets/img/Laptop1.png",
+    "ratings": 5
+  },
+  {    "id": 8,
+    "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+    "desc": "Lavazza Super Crema Whole Bean Laptop",
+    "price": 35000,
+    "image": "/assets/img/headphones.png",
+    "ratings": 5
+  }
+]

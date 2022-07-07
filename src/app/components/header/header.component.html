@@ -1,0 +1,46 @@
+<div class="header">
+  <nav class="header_top">
+    <div class="header_menu">
+      <div class="header_menu_icon" routerLink="/">
+        <mat-icon>shopping_cart</mat-icon>
+        <a href="#" class="logo"> Shopsy </a>
+      </div>
+   <div class="header_menu_searchbar">
+     <input type="text" class="header_menu_input">
+     <div class="header_menu_searchbar_icon">
+       <mat-icon>search</mat-icon>
+
+     </div>
+   </div>
+   <div routerLink="/login" class="header_menu_signin">
+    <span (click)="logout()" class="header_menu_top_item" *ngIf="auth.isLoggedIn()">{{auth.getUser()}}</span>
+     <span routerLink="/login" class="header_menu_top_item" *ngIf="!auth.isLoggedIn()">Sign in</span>
+     <span class="header_menu_bottom_item">Accounts & Lists</span>
+
+   </div>
+   <div routerLink="/login" class="header_menu_signin">
+    <span class="header_menu_top_item">Returns</span>
+    <span class="header_menu_bottom_item">& Orders</span>
+
+  </div>
+  <div  routerLink="/checkout" class="header_menu_cart">
+    <mat-icon>shopping_cart</mat-icon>
+    <p class="header_cart_number">{{shoppingCart.getCartLength()}}</p>
+  </div>
+    </div>
+
+  </nav>
+  <nav class="header_bottom">
+    <div class="header-2">
+      <nav class="nav-bar">
+        <a href="#">home</a>
+        <a href="#">featured</a>
+        <a href="#">arrivals</a>
+        <a href="#">reviews</a>
+        <a href="#">blogs</a>
+    </nav>
+  </div>
+  </nav>
+
+
+</div>
